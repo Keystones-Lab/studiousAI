@@ -20,3 +20,11 @@ p {
   line-height: 1.5;
   color: #d9d3c5;
 }
+
+.status {
+  font-weight: 600;
+}
+
+.status.connected {
+  color: #b7e3a1;
+}
