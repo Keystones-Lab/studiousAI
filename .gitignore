@@ -1,0 +1,10 @@
+node_modules/
+dist/
+out/
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+*.gguf
+*.onnx
+*.wav
