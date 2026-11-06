@@ -37,7 +37,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
+# Safety check to see if the server is online or not and is working properly or not.
 @app.get("/health")
 def health():
     return {"status": "ok"}
